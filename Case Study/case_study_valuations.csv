@@ -1,0 +1,3 @@
+house,suburb,title,point_usd,pi_lower_usd,pi_upper_usd,knn_dist,knn_median_usd,n_match_salient_in_suburb
+House_A_Madokero,Madokero,deeds,87926.828125,-148540.32768485913,324393.98393485916,18.477769173547763,120000.0,0
+House_B_Mabvazuva,Mabvazuva,cession,58132.87890625,-178334.27690360913,294600.03471610916,19.15882678516222,115000.0,0
