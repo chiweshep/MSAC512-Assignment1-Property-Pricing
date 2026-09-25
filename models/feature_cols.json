@@ -1,0 +1,36 @@
+{
+  "numeric": [
+    "bedrooms",
+    "bathrooms",
+    "land_area_m2",
+    "flag_unpainted",
+    "flag_painted",
+    "flag_paved",
+    "flag_unpaved",
+    "flag_walled",
+    "flag_unfenced",
+    "flag_electric_fence",
+    "flag_security_24hr",
+    "flag_ceiling_fitted",
+    "flag_no_ceiling",
+    "flag_kitchen_fitted",
+    "flag_kitchen_unfitted",
+    "flag_tiled",
+    "flag_screeded_bare_floor",
+    "flag_borehole",
+    "flag_water_tank",
+    "flag_municipal_only",
+    "flag_solar",
+    "flag_zesa_good",
+    "flag_ensuite",
+    "flag_bics",
+    "flag_staff_quarters",
+    "flag_title_deeds",
+    "flag_cession"
+  ],
+  "categorical": [
+    "suburb"
+  ],
+  "price_col": "price_usd",
+  "alpha": 0.1
+}

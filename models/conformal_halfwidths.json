@@ -1,0 +1,6 @@
+{
+  "GLM_baseline": 398488.71862302313,
+  "random_forest": 381171.9080389352,
+  "xgboost": 236467.15580985913,
+  "elasticnet_interactions": 420680.77608871454
+}
