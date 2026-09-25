@@ -1,0 +1,26 @@
+flag,min_suburb_rate,max_suburb_rate,spread,suburb_with_min,suburb_with_max
+flag_cession,0.0,41.66666666666667,41.66666666666667,Borrowdale,Chitungwiza
+flag_ensuite,0.0,20.0,20.0,Chitungwiza,Borrowdale
+flag_kitchen_fitted,0.0,10.0,10.0,Chitungwiza,Borrowdale
+flag_title_deeds,0.0,8.333333333333332,8.333333333333332,Borrowdale,Chitungwiza
+flag_zesa_good,0.0,8.333333333333332,8.333333333333332,Borrowdale,Chitungwiza
+flag_tiled,0.0,8.333333333333332,8.333333333333332,Borrowdale,Chitungwiza
+flag_borehole,0.0,8.333333333333332,8.333333333333332,Borrowdale,Chitungwiza
+flag_bics,0.0,8.333333333333332,8.333333333333332,Borrowdale,Chitungwiza
+flag_walled,0.0,8.333333333333332,8.333333333333332,Borrowdale,Chitungwiza
+flag_staff_quarters,0.0,8.333333333333332,8.333333333333332,Borrowdale,Chitungwiza
+flag_paved,0.0,6.666666666666667,6.666666666666667,Borrowdale,Mount Pleasant Heights
+construction_stage_ordinal,0.08333333333333333,0.3333333333333333,0.25,Chitungwiza,Mount Pleasant Heights
+flag_electric_fence,0.0,0.0,0.0,Borrowdale,Borrowdale
+flag_unpaved,0.0,0.0,0.0,Borrowdale,Borrowdale
+flag_painted,0.0,0.0,0.0,Borrowdale,Borrowdale
+flag_unpainted,0.0,0.0,0.0,Borrowdale,Borrowdale
+flag_unfenced,0.0,0.0,0.0,Borrowdale,Borrowdale
+flag_ceiling_fitted,0.0,0.0,0.0,Borrowdale,Borrowdale
+flag_security_24hr,0.0,0.0,0.0,Borrowdale,Borrowdale
+flag_municipal_only,0.0,0.0,0.0,Borrowdale,Borrowdale
+flag_kitchen_unfitted,0.0,0.0,0.0,Borrowdale,Borrowdale
+flag_no_ceiling,0.0,0.0,0.0,Borrowdale,Borrowdale
+flag_water_tank,0.0,0.0,0.0,Borrowdale,Borrowdale
+flag_screeded_bare_floor,0.0,0.0,0.0,Borrowdale,Borrowdale
+flag_solar,0.0,0.0,0.0,Borrowdale,Borrowdale
