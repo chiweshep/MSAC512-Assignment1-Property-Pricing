@@ -1,0 +1,29 @@
+Cleaning decisions log -- Section 2.4
+==================================================
+
+1. Loaded 400 raw scraped listings from /content/Raw data.csv
+
+2. land_area_m2: converted 6 value(s) from acres to m² (1 acre = 4046.86 m²), because a 5.4-acre stand stored as '5.4 m²' would be a ~40,000x understatement and skew every area statistic.
+
+3. Exact ref duplicates removed: 0 (kept the LAST-scraped copy, on the assumption a later scrape reflects a more current price/description)
+
+4. Listings flagged as likely re-listed duplicates (same agency/suburb/beds/baths/land area, price within 2%): 2. NOT auto-removed -- kept with a flag column; decide in your memo whether to drop, and justify it with 2-3 example pairs.
+
+5. Currency standardisation: 0 listings converted ZiG->USD at 26.8 (source: RBZ official interbank mid-rate, https://www.rbz.co.zw, 2026-09-20); 397 already USD; 3 had no currency marker and were ASSUMED USD (spot-check these by hand before trusting them -- see 'fx_assumption' column).
+
+6. Dropped 3 rows missing price or suburb (both are required for every downstream section -- EDA, GLM, ML, the Section F case study -- so a row without them cannot be used, not even with imputation).
+
+7. bedrooms: 0 missing values imputed with the suburb median (global median as fallback). Flagged in 'bedrooms_imputed' -- consider excluding these from any figure/statistic where imputation would visibly distort the picture (e.g. don't imputed-pad a small suburb sample in the Section C summary table).
+
+8. bathrooms: 48 missing values imputed with the suburb median (global median as fallback). Flagged in 'bathrooms_imputed' -- consider excluding these from any figure/statistic where imputation would visibly distort the picture (e.g. don't imputed-pad a small suburb sample in the Section C summary table).
+
+9. land_area_m2: 50 missing values left as NaN (NOT imputed) -- added 'has_land_area_m2' flag instead, since missingness here is plausibly informative (e.g. flats/townhouses rarely quote a stand size) rather than a random gap. Your GLM/ML models should treat this explicitly (e.g. a missing-indicator + median imputation *inside* the model pipeline, not before it, so the train/test split in Section 5.3 stays clean).
+
+10. floor_area_m2: 35 missing values left as NaN (NOT imputed) -- added 'has_floor_area_m2' flag instead, since missingness here is plausibly informative (e.g. flats/townhouses rarely quote a stand size) rather than a random gap. Your GLM/ML models should treat this explicitly (e.g. a missing-indicator + median imputation *inside* the model pipeline, not before it, so the train/test split in Section 5.3 stays clean).
+
+11. description: 0 listings had no scraped description text -- left as empty string ('no signal' is itself the correct value here, not something to impute). These rows will get all-zero text flags in Section 3.1; don't let that silently look like 'confirmed absence of every condition issue'.
+
+12. 24 rows flagged by outlier rules (see 'outlier_flag' column for reasons). NONE were automatically dropped -- the assignment wants documented, justified treatment, so open these rows, decide case by case (genuine luxury sale vs data-entry error), and record your reasoning + final count removed in your memo.
+
+
+Final cleaned dataset: 397 rows -> /content/cleaned_listings.csv
