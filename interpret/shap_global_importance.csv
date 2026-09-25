@@ -1,0 +1,115 @@
+feature,mean_abs_shap
+num__land_area_m2,0.4874764
+num__bathrooms,0.14410004
+cat__suburb_Mount Pleasant,0.056160152
+num__flag_cession,0.053068366
+cat__suburb_Borrowdale Brooke,0.045844495
+cat__suburb_Granary Park,0.03461764
+cat__suburb_Chitungwiza,0.03431393
+num__bedrooms,0.03301664
+num__flag_ensuite,0.024902456
+cat__suburb_Charlotte Brooke,0.023582455
+cat__suburb_Pomona,0.017129334
+num__flag_staff_quarters,0.016554534
+num__flag_kitchen_fitted,0.016464101
+cat__suburb_Knowe,0.015438453
+cat__suburb_Mount Pleasant Heights,0.015217436
+cat__suburb_Highlands,0.014359018
+cat__suburb_Borrowdale,0.0137085095
+cat__suburb_Quinnington,0.01258396
+cat__suburb_Avondale,0.0117559
+cat__suburb_Norton,0.011696486
+cat__suburb_Rockview,0.010798827
+cat__suburb_Eastlea,0.00841466
+cat__suburb_Waterfalls,0.008327595
+cat__suburb_Carrick Creagh,0.008314568
+cat__suburb_Zimre Park,0.0075053675
+cat__suburb_Borrowdale West,0.0070429025
+cat__suburb_Hatfield,0.0061948895
+cat__suburb_Parktown,0.0060802973
+cat__suburb_Brookview,0.0058125146
+cat__suburb_Aspindale Park,0.005690385
+cat__suburb_Ruwa,0.0054167737
+cat__suburb_Mainway Meadows,0.0054018283
+cat__suburb_Rydale Ridge Park,0.005206381
+cat__suburb_Alexandra Park,0.0048332294
+cat__suburb_Sandton Park,0.004529972
+cat__suburb_Stoneridge,0.0042980183
+cat__suburb_Goodhope,0.004160442
+cat__suburb_Avondale West,0.0041049267
+cat__suburb_Old Windsor,0.0039396198
+num__flag_borehole,0.0039189667
+cat__suburb_Chisipite,0.0036305413
+cat__suburb_Gletwin Park,0.003466569
+cat__suburb_Riverside Park,0.003418067
+cat__suburb_Sunridge,0.0033802977
+cat__suburb_Glen Lorne,0.0033604605
+num__flag_bics,0.0033060089
+cat__suburb_Haydon Park,0.0032135677
+cat__suburb_Rydale Ridge,0.0029181049
+cat__suburb_Westgate,0.0025854355
+cat__suburb_Manyame Park,0.0024987943
+cat__suburb_Whitecliff,0.0024397338
+cat__suburb_Vainona,0.0022749864
+cat__suburb_Sunningdale,0.0021230062
+cat__suburb_Arlington,0.0021220252
+cat__suburb_Rolf Valley,0.0019827075
+cat__suburb_Cold Comfort,0.001975149
+cat__suburb_Madokero,0.0017210654
+num__flag_title_deeds,0.0016321958
+cat__suburb_Tynwald,0.0015200506
+cat__suburb_Greystone Park,0.0015164685
+cat__suburb_Gunhill,0.0014255509
+cat__suburb_Glen Norah,0.0013505337
+cat__suburb_Sentosa,0.0013276149
+cat__suburb_Highfield,0.0013138438
+cat__suburb_Marlborough,0.0011987466
+cat__suburb_Fairview,0.0011740109
+cat__suburb_Glaudina,0.0011279307
+num__flag_unpainted,0.0010246637
+cat__suburb_Bluff Hill,0.0009921403
+cat__suburb_Mabelreign,0.0008418045
+cat__suburb_Helensvale,0.00083650276
+cat__suburb_Budiriro,0.0007201205
+cat__suburb_Philadelphia,0.00059687736
+num__flag_security_24hr,0.00059022335
+cat__suburb_Dawnview Park,0.0005133126
+num__flag_walled,0.0005099822
+num__flag_water_tank,0.0004435126
+cat__suburb_Ashdown Park,0.0004172189
+num__flag_paved,0.00037301023
+cat__suburb_Mt Pleasant Heights,0.00033333374
+cat__suburb_Warren Park,0.0003192725
+cat__suburb_Ashbrittle,0.000293006
+num__flag_solar,0.0002602735
+cat__suburb_Athlone,0.00022220696
+num__flag_tiled,0.00019022143
+cat__suburb_Colne Valley,0.00014756335
+cat__suburb_Mabvazuva,0.000113937196
+cat__suburb_Hillside,8.875559e-05
+num__flag_painted,8.80754e-05
+num__flag_municipal_only,0.0
+num__flag_unpaved,0.0
+num__flag_electric_fence,0.0
+num__flag_unfenced,0.0
+num__flag_zesa_good,0.0
+num__flag_no_ceiling,0.0
+num__flag_ceiling_fitted,0.0
+num__flag_kitchen_unfitted,0.0
+num__flag_screeded_bare_floor,0.0
+cat__suburb_Dzivarasekwa,0.0
+cat__suburb_Bloomingdale,0.0
+cat__suburb_Monavale,0.0
+cat__suburb_Kuwadzana,0.0
+cat__suburb_Greengrove,0.0
+cat__suburb_Glen View,0.0
+cat__suburb_Hogerty Hill,0.0
+cat__suburb_Hatcliffe,0.0
+cat__suburb_Rainham,0.0
+cat__suburb_Nyeredzi Ridge,0.0
+cat__suburb_New Marlborough,0.0
+cat__suburb_Northwood,0.0
+cat__suburb_St. Marys,0.0
+cat__suburb_Springvale,0.0
+cat__suburb_Shawasha Hills,0.0
+cat__suburb_Westlea,0.0
