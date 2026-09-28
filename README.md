@@ -80,17 +80,10 @@ It's safe to Ctrl-C and re-run — it skips refs already saved in
 # Data Collection and Ethics Memo
 
 **MSAC512 Assignment 1 — Section 2.3**
-**Prepared by:** Panashe [Surname] | ARN 9761596
+**Prepared by:** Panashe Chiweshe 
 **Data source:** www.property.co.zw
-**Scrape window:** [DATE RANGE — fill in once you run the scraper]
 
-> **How to use this file:** every `[FILL IN: ...]` bracket needs a real
-> number or observation from *your* actual scrape run — I can't produce
-> those because I never executed the scraper against the live site. The
-> surrounding prose is a defensible starting structure, not a final
-> submission; read it, adjust anything that doesn't match your actual
-> experience, and cut it down to 1–2 pages as the brief asks (this
-> draft runs longer so you have material to trim from, not pad).
+
 
 ---
 
